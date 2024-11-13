@@ -3,8 +3,11 @@ layout: default
 prism: true
 ---
 
-<div class="container max-w-4xl mt-6  px-6">
-    <div class="pb-5 mb-5 border-b border-gray-100">
+<main style="--d: flex; --maxw: min(80rem, 100vw); --m: 0 auto; --of: hidden;">
+    <div class="pb-5 mb-5 border-b border-gray-100" style="--pb: 1.25rem;
+        --mb: 1.25rem;
+        --bb: 1px solid;
+        --bc: oklch(0.95 0 0);">
         <h1 class="font-bold text-5xl">{{title}}</h1>
         <p class="text-center text-base leading-6 font-medium text-gray-500">
             <time> {{ date | readableDate }}
@@ -15,7 +18,12 @@ prism: true
         </p>
 
     </div>
-    <article class="prose lg:prose-xl my-4 mx-auto">
-        {{ content | safe }}</article>
+    <article class="prose lg:prose-xl my-4 mx-auto" style="--ff: serif; 
+        --lh: 1.5; 
+        --size-lg: 1.25rem; 
+        --m: 1rem auto;
+        ">
+        {{ content | safe }}
+    </article>
 
-</div>
+</main>
