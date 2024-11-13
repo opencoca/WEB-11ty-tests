@@ -4,7 +4,9 @@ Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind
 
 ## Live Demo
 
-[https://neat-starter.netlify.app/](https://neat-starter.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/23f20115-1789-416e-9c7b-df562d96f7ab/deploy-status)](https://app.netlify.com/sites/cheery-lily-4e3370/deploys)
+
+[[https://neat-starter.netlify.app/](https://neat-starter.netlify.app/)](https://cheery-lily-4e3370.netlify.app/)
 
 ### Technologies used:
 
